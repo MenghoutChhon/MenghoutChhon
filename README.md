@@ -1,20 +1,4 @@
-<!-- Banner | Typing SVG -->
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=00FFFF&center=true&width=800&lines=Hello%2C+I'm+Menghout+Chhon!;AI+%7C+ML+%7C+Blockchain+%7C+Data+Engineer;" alt="Typing SVG" />
-</p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI-%2300FFFF?style=for-the-badge&logo=openai&logoColor=black" />
-  <img src="https://img.shields.io/badge/Machine%20Learning-%2300FFFF?style=for-the-badge&logo=scikit-learn&logoColor=black" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-%2300FFFF?style=for-the-badge&logo=tensorflow&logoColor=black" />
-  <img src="https://img.shields.io/badge/Blockchain-%2300FFFF?style=for-the-badge&logo=ethereum&logoColor=black" />
-  <img src="https://img.shields.io/badge/AWS-%2300FFFF?style=for-the-badge&logo=amazon-aws&logoColor=black" />
-  <img src="https://img.shields.io/badge/BigQuery-%2300FFFF?style=for-the-badge&logo=google-cloud&logoColor=black" />
-  <img src="https://img.shields.io/badge/Data%20Engineering-%2300FFFF?style=for-the-badge&logo=dataspell&logoColor=black" />
-  <img src="https://img.shields.io/badge/BI%20%26%20Dashboard-%2300FFFF?style=for-the-badge&logo=powerbi&logoColor=black" />
-</p>
-
----
 
 ## 🧑‍💻 Profile
 
