@@ -1,25 +1,29 @@
-
-
 ## 🧑‍💻 Profile
 
-Driven Data Science senior student with hands-on experience in predictive modeling, data preprocessing, and BI dashboard development.  
-Skilled at turning raw data into actionable insights, with a proven record in real-world data engineering and machine learning projects.  
-Calm under pressure, detail-oriented, and committed to delivering scalable, production-ready solutions.
+Fifth-year Data Science student driving business digital transformation. Skilled in data management, advanced analytics and forecasting, including machine learning, deep learning, time-series analysis, and Natural Language Processing. Proficient in Python, SQL and business intelligence tools, with foundation in Mathematics, Statistics and economics to deliver accurate, actionable insights in real-world business and financial contexts. Especially, the experience with cloud computing in insurance production.
 
 ---
 
 ## 🏢 Experience
 
+**Group Technology Intern**  
+*Forte Insurance (Cambodia) Plc.*  
+- Maintained Business using InfoIns (Management Information System) and SQL Developer-Oracle  
+- Contributed in Data Warehouse using Snowflake, AWS S3, IAM, CloudWatch and SQL  
+- Developed interactive Power BI dashboards  
+- Contributed in backend Express.js and UI development Next.js in Node.js and AWS CodeCommit.
+
 **Aid Management Policy & ODA Data Analysis Intern**  
 *Council for the Development of Cambodia*  
 - Analyzed Official Development Assistance (ODA) data to produce policy recommendations  
 - Developed dashboards for decision-making support  
+
 ---
 
 ## 👾 Skills
 
 **Languages & Libraries:**  
-Python (Pandas, NumPy, Scikit-learn, TensorFlow), SQL
+Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyTorch, TensorFlow), SQL, R, JavaScript
 
 **BI & Visualization:**  
 Power BI
@@ -28,7 +32,7 @@ Power BI
 ETL design, Data warehousing, Time-series forecasting
 
 **DevOps & Tools:**  
-Docker, Git, BigQuery
+Docker, Git, BigQuery, AWS (S3, IAM, CloudWatch, CodeCommit), Snowflake
 
 **Soft Skills:**  
 Analytical thinking, Collaboration, Communication, Project management
@@ -39,9 +43,6 @@ Analytical thinking, Collaboration, Communication, Project management
 
 - [**Data Warehouse Project**](https://github.com/MenghoutChhon/data-warehouse-project) 
   *Enterprise-scale warehouse and BI pipeline using T-SQL & Power BI*
-
-- [**BTC Price Prediction**](https://github.com/MenghoutChhon/BTC-Project)  
-  *Bitcoin price forecasting with advanced machine learning and time-series modeling*
 
 - [**Credit Card Fraud Detection**](https://github.com/MenghoutChhon/Credit_Card_Fraud_Detection)  
   *Financial anomaly detection using ML and GNNs for fraud prevention*
