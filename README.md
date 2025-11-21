@@ -29,24 +29,13 @@ Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, PyTorch, TensorFlow), 
 Power BI
 
 **Data Engineering:**  
-ETL design, Data warehousing, Time-series forecasting
+ETL design, Data warehousing
 
 **DevOps & Tools:**  
-Docker, Git, BigQuery, AWS (S3, IAM, CloudWatch, CodeCommit), Snowflake
+Docker, Git, AWS (S3, IAM, CloudWatch, CodeCommit), Snowflake
 
 **Soft Skills:**  
 Analytical thinking, Collaboration, Communication, Project management
-
----
-
-## 🚀 Featured Projects
-
-- [**Data Warehouse Project**](https://github.com/MenghoutChhon/data-warehouse-project) 
-  *Enterprise-scale warehouse and BI pipeline using T-SQL & Power BI*
-
-- [**Credit Card Fraud Detection**](https://github.com/MenghoutChhon/Credit_Card_Fraud_Detection)  
-  *Financial anomaly detection using ML and GNNs for fraud prevention*
-
 
 ---
 
