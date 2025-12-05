@@ -115,16 +115,16 @@ khmer-ai-platform/
 ## 🔧 Technology Stack
 
 ### Backend
-- **Framework**: FastAPI 0.109.0
+- **Framework**: FastAPI 0.109.1
 - **Language**: Python 3.11+
-- **ML/AI**: PyTorch 2.1.2, Transformers 4.37.0
+- **ML/AI**: PyTorch 2.6.0, Transformers 4.48.0
 - **TTS**: Meta MMS (facebook/mms-tts-khm)
 - **OCR**: TrOCR (songhieng/khmer-trocr-ocr-v1.0)
 - **Summarization**: mT5 (Seanghay/khmer-mt5-summarization)
 - **Server**: Uvicorn (ASGI)
 
 ### Frontend
-- **Framework**: Next.js 14.1.0
+- **Framework**: Next.js 14.2.25
 - **Language**: TypeScript 5.3.3
 - **Styling**: Tailwind CSS 3.4.1
 - **UI Components**: React 18.2.0
@@ -227,19 +227,19 @@ khmer-ai-platform/
 
 ### Python (Backend)
 ```
-fastapi==0.109.0
+fastapi==0.109.1
 uvicorn[standard]==0.27.0
-torch==2.1.2
-transformers==4.37.0
+torch==2.6.0
+transformers==4.48.0
 TTS==0.22.0
-pillow==10.2.0
+pillow==10.3.0
 opencv-python==4.9.0.80
 easyocr==1.7.1
 ```
 
 ### Node.js (Frontend)
 ```
-next: 14.1.0
+next: 14.2.25
 react: ^18.2.0
 typescript: ^5.3.3
 tailwindcss: ^3.4.1

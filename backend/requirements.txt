@@ -1,14 +1,14 @@
 # FastAPI and Web Framework
-fastapi==0.109.0
+fastapi==0.109.1
 uvicorn[standard]==0.27.0
-python-multipart==0.0.6
+python-multipart==0.0.18
 aiofiles==23.2.1
 
 # ML/AI Libraries
-torch==2.1.2
-transformers==4.37.0
+torch==2.6.0
+transformers==4.48.0
 TTS==0.22.0
-pillow==10.2.0
+pillow==10.3.0
 opencv-python==4.9.0.80
 numpy==1.26.3
 scipy==1.12.0
