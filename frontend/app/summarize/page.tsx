@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+
 export default function SummarizePage() {
   const [text, setText] = useState('')
   const [loading, setLoading] = useState(false)
@@ -17,7 +19,7 @@ export default function SummarizePage() {
     setSummary(null)
 
     try {
-      const response = await fetch('http://localhost:8000/api/llm/summarize', {
+      const response = await fetch(`${API_URL}/api/llm/summarize`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

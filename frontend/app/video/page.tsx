@@ -3,10 +3,23 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+
+interface VideoGenerationResult {
+  status: string
+  message: string
+  prompt: string
+  duration?: number
+  resolution?: string
+  video_file?: string
+  recommended_models?: string[]
+  note?: string
+}
+
 export default function VideoPage() {
   const [prompt, setPrompt] = useState('')
   const [loading, setLoading] = useState(false)
-  const [result, setResult] = useState<any>(null)
+  const [result, setResult] = useState<VideoGenerationResult | null>(null)
   const [error, setError] = useState<string | null>(null)
   const [duration, setDuration] = useState(5)
   const [resolution, setResolution] = useState('720p')
@@ -18,7 +31,7 @@ export default function VideoPage() {
     setResult(null)
 
     try {
-      const response = await fetch('http://localhost:8000/api/video/generate', {
+      const response = await fetch(`${API_URL}/api/video/generate`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

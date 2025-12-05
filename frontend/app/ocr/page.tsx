@@ -3,6 +3,8 @@
 import { useState } from 'react'
 import Link from 'next/link'
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+
 export default function OCRPage() {
   const [file, setFile] = useState<File | null>(null)
   const [loading, setLoading] = useState(false)
@@ -35,7 +37,7 @@ export default function OCRPage() {
       const formData = new FormData()
       formData.append('file', file)
 
-      const response = await fetch('http://localhost:8000/api/ocr/extract', {
+      const response = await fetch(`${API_URL}/api/ocr/extract`, {
         method: 'POST',
         body: formData,
       })

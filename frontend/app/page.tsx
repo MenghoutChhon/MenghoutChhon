@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+const API_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000'
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
@@ -107,7 +109,7 @@ export default function Home() {
         {/* API Info */}
         <div className="mt-8 text-center">
           <a 
-            href="http://localhost:8000/docs" 
+            href={`${API_URL}/docs`}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition-colors"
