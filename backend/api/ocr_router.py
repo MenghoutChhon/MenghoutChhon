@@ -16,7 +16,6 @@ class OCRResponse(BaseModel):
     confidence: float
     detected_lines: List[str]
 
-@router.on_event("startup")
 async def load_model():
     """Load OCR model on startup"""
     global ocr_model

@@ -25,7 +25,6 @@ class LLMResponse(BaseModel):
     input_length: int
     output_length: int
 
-@router.on_event("startup")
 async def load_model():
     """Load LLM models on startup"""
     global llm_model

@@ -32,7 +32,6 @@ class VideoStatusResponse(BaseModel):
     video_url: Optional[str] = None
     error: Optional[str] = None
 
-@router.on_event("startup")
 async def load_model():
     """Load video generation model on startup"""
     global video_model

@@ -2,14 +2,26 @@
 LMN - Khmer AI/ML Platform
 Main FastAPI Application
 """
+from contextlib import asynccontextmanager
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from api import tts_router, ocr_router, llm_router, video_router
 
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup: Load models
+    await tts_router.load_model()
+    await ocr_router.load_model()
+    await llm_router.load_model()
+    await video_router.load_model()
+    yield
+    # Shutdown: Cleanup if needed
+
 app = FastAPI(
     title="LMN - Khmer AI/ML Platform",
     description="Comprehensive AI/ML platform for Khmer language processing",
-    version="1.0.0"
+    version="1.0.0",
+    lifespan=lifespan
 )
 
 # CORS middleware

@@ -5,6 +5,7 @@ Note: This is a placeholder implementation as these models require significant r
 """
 import torch
 import os
+import hashlib
 from typing import Callable, Optional
 
 class VideoGenerator:
@@ -69,7 +70,7 @@ class VideoGenerator:
             # Simulate video generation
             output_path = os.path.join(
                 self.output_dir,
-                f"video_{hash(prompt) % 10000}.mp4"
+                f"video_{hashlib.md5(prompt.encode()).hexdigest()[:8]}.mp4"
             )
             
             # In production, actual video generation would happen here

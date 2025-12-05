@@ -20,7 +20,6 @@ class TTSResponse(BaseModel):
     duration: float
     text: str
 
-@router.on_event("startup")
 async def load_model():
     """Load TTS model on startup"""
     global tts_model
