@@ -4,6 +4,21 @@ Fifth-year Data Science student driving business digital transformation. Skilled
 
 ---
 
+## 🇰🇭 Featured Project: Khmer AI/ML Platform
+
+A comprehensive AI/ML web platform for Khmer language processing featuring:
+
+- **🔊 Text-to-Speech**: Convert Khmer text to natural speech using Meta's MMS-TTS
+- **📸 OCR**: Extract Khmer text from images with TrOCR
+- **📝 Summarization**: AI-powered Khmer text summarization with mT5
+- **🎬 Video Generation**: Generate videos from text (GPU-powered)
+
+**Tech Stack:** FastAPI · Next.js 14 · PyTorch · Transformers · Docker · TypeScript · Tailwind CSS
+
+📚 [Full Documentation](KHMER_AI_README.md) | 🚀 [Quick Start](#quick-start)
+
+---
+
 ## 🏢 Experience
 
 **Group Technology Intern**  
@@ -59,3 +74,35 @@ Analytical thinking, Collaboration, Communication, Project management
 ## 💡 Fun Fact
 
 _Je suis un gars cool et j'adore aller en boîte de nuit._ 🎶🍻
+
+## 🚀 Quick Start
+
+### Khmer AI/ML Platform
+
+```bash
+# Clone the repository
+git clone https://github.com/MenghoutChhon/MenghoutChhon.git
+cd MenghoutChhon
+
+# Start with Docker
+chmod +x start.sh
+./start.sh
+
+# Access the platform
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:8000
+# API Docs: http://localhost:8000/docs
+```
+
+For detailed setup instructions, see [KHMER_AI_README.md](KHMER_AI_README.md)
+
+---
+
+## 📚 Documentation
+
+- **[Khmer AI/ML Platform README](KHMER_AI_README.md)** - Complete platform documentation
+- **[API Testing Guide](API_TESTING.md)** - How to test the APIs
+- **[Deployment Guide](DEPLOYMENT.md)** - Deployment instructions
+- **[Contributing Guide](CONTRIBUTING.md)** - How to contribute
+
+---
